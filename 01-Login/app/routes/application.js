@@ -19,7 +19,7 @@ export default Route.extend({
       .handleAuthentication()
       .then(() => {
         if (get(this, 'auth.isAuthenticated')) {
-          this.transitionTo('protected')
+          this.transitionTo('protected');
         }
       });
   },

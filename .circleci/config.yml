@@ -85,3 +85,5 @@ workflows:
           context: Quickstart SPA Test
           requires:
             - checkout
+
+            

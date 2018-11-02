@@ -5,9 +5,6 @@ const {
   inject: {
     service,
   },
-  // computed: {
-  //   alias,
-  // },
   get,
 } = Ember;
 
